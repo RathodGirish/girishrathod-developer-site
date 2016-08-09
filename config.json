@@ -1,0 +1,16 @@
+{
+"accessKeyId": "AKIAIPYCXDCNTALLGNGA", 
+"secretAccessKey": "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", 
+"Version": "2012-10-17",
+"s3basekey": "img/",
+"s3id":"a97ad3c9-f410-40b5-a2e5-580b758576c3/",
+"BucketName" : "streamco-zencoder-test-output-sydney",
+"Statement": [
+    {
+        "Effect": "Allow",
+        "Principal": "*",
+        "Action": "s3:GetObject",
+        "Resource": "arn:aws:s3:::streamco-zencoder-test-output-sydney/*"
+    }
+]
+}
